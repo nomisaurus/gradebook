@@ -7,6 +7,17 @@ namespace GradeBook
     {
         static void Main(string[] args)
         {
+            var book = new Book();
+
+            //SayHello(args);
+
+            //WorkWithLists();
+
+            // WorkWithArrays();
+        }
+
+        private static void SayHello(string[] args)
+        {
             if (args.Length > 0)
             {
                 Console.WriteLine($"Hello, {args[0]}!");
@@ -15,10 +26,6 @@ namespace GradeBook
             {
                 Console.WriteLine("Hello, World!");
             }
-
-            WorkWithLists();
-
-            // WorkWithArrays();
         }
 
         static void WorkWithLists()
